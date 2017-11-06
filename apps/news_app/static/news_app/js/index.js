@@ -155,6 +155,45 @@ $(document).ready(function () {
 
   //Tech section Animations
 
+  $('.js--wp-9').waypoint(function (direction) {
+    $('.js--wp-10').addClass('animated slideInUp');
+  }, {
+    offset: '40%'
+  });
+
+  $('.js--wp-10').waypoint(function (direction) {
+    $('.js--wp-11').addClass('animated slideInUp');
+  }, {
+    offset: '40%'
+  });
+
+  $('.js--wp-11').waypoint(function (direction) {
+    $('.js--wp-12').addClass('animated slideInUp');
+  }, {
+    offset: '40%'
+  });
+
+  $('.js--wp-12').waypoint(function (direction) {
+    $('.js--wp-13').addClass('animated slideInUp');
+  }, {
+    offset: '40%'
+  });
+
+  $('.js--wp-13').waypoint(function (direction) {
+    $('.js--wp-14').addClass('animated slideInUp');
+  }, {
+    offset: '40%'
+  });
+
+  $('.js--wp-14').waypoint(function (direction) {
+    $('.js--wp-15').addClass('animated slideInUp');
+  }, {
+    offset: '40%'
+  });
+
+  
+  //Tech section Animations
+
   $('.js--wp-30').waypoint(function (direction) {
     $('.js--wp-30').addClass('animated zoomIn');
   }, {

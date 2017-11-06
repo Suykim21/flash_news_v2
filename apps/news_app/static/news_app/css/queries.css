@@ -24,10 +24,10 @@
     width: 80%;
     margin-left: 10%;
   } */
-
+/* 
   .icon-big{
     margin-left: 40%;
-  }
+  } */
 
   .steps-box {
     margin-top: 10px;
@@ -184,6 +184,10 @@
     font-size:20px;
     padding: 0 1em;
   }
+
+  .politics-grid{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 
@@ -196,7 +200,8 @@
   .contact-form {
     width: 100%;
   }
-  .sports-grid {
+  .sports-grid,
+  .politics-grid {
     grid-template-columns: 1fr;
   }
 
@@ -204,7 +209,7 @@
 }
 
 /* Politics section - 500*/
-@media (min-width: 500px) {
+/*@media (min-width: 500px) {
   .politics-hero {
     grid-template-columns: 1fr 1fr;
   }
@@ -226,10 +231,10 @@
     grid-column: 2;
     grid-row: 5 / 7;
   }
-}
+}*/
 
 /*Politics section - 800*/
-@media (min-width: 800px) {
+/*@media (min-width: 800px) {
    .politics-hero {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: minmax(150px, auto);
@@ -252,7 +257,7 @@
     grid-column: 3;
     grid-row: 3 / 6;
   }
-}
+}*/
 
 
 @media only screen and (max-width: 700px) {

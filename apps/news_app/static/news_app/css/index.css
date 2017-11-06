@@ -41,6 +41,13 @@ body {
   margin: 0 auto;
 }
 
+section {
+  padding: 80px 0;
+}
+
+.box {
+  padding: 1%;
+}
 /* ----- HEADINGS ----- */
 h1,
 h2,
@@ -59,42 +66,53 @@ h1 {
 }
 
 h2 {
-    padding-top: 40px;
+    padding-top: 20px;
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
     letter-spacing: 1px;
 }
 
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #00aced;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
 h3 {
     font-size: 110%;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 /* ----- PARAGRAPHS ----- */
 .long-copy {
-    /* line-height: 145%;
+    line-height: 145%;
     width: 70%;
-    margin-left: 22%; */
-    text-align: center;
+    margin-left: 15%;
 }
 
-/*.box p {
+.box p {
     font-size: 90%;
     line-height: 145%;
-}*/
+}
 
 
 /* ----- ICONS ----- */
 .icon-big {
     font-size: 350%;
-    display: block;
+    display: inline-block;
     margin: 0 auto;
-    width: 30%;
+    width: 100%;
     color: #013A6B;
-    padding-right: 8%;
-    /* margin-left: 30%; */
-    /* margin-bottom: 10px; */
+    text-align: center;
+    /* padding-right: 8%; */
+    /* margin-left: 43.5%; */
+    margin-bottom: 10px;
 }
 
 
@@ -294,11 +312,11 @@ header {
   color: black;
   background-color: rgb(75, 147, 177);
   background-image: -webkit-linear-gradient(150deg, rgb(75, 147, 177) 35%, white 35%);
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 
 .section-features h2 {
-  padding-top: 40px;
+  /* padding-top: 40px; */
   padding-bottom: 40px;
   font-weight:bold;
 }
@@ -382,9 +400,9 @@ header {
 }
 
 .sports1 h3:hover{
-  text-decoration: underline;
-  font-weight: bold;
-}
+  font-weight:bold;
+  color:rgb(26, 175, 238);
+} 
 
 
 /* ----------------------------------------------- */
@@ -415,7 +433,44 @@ header {
   line-height: 40vh;
 }
 
-.politics {
+/* #politics{
+  background-color: rgb(75, 147, 177);
+  background-image: -webkit-linear-gradient(150deg, rgb(75, 147, 177) 35%, white 35%);
+} */
+
+.politics-grid {
+  padding: 1em;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:1em;
+}
+
+.politics-grid > div{
+  background: #eee;
+  padding: 1em;
+}
+
+.politics-grid > div:nth-child(odd){
+  background:#ddd;
+}
+
+.p-left{
+  color:#232066;
+}
+
+.p-right{
+  color:#E91D0E;
+}
+
+.p-spacing{
+  margin-bottom: 10px;
+}
+
+/* .politics-right{
+  color:E91D0E;
+} */
+
+/* .politics {
   padding: 0;
   background-color: #ececec;
   text-decoration: none;
@@ -472,7 +527,7 @@ header {
 }
 
 .politics-hero > * {
-  /*border: solid 3px rgb(75, 147, 177);*/
+  /*border: solid 3px rgb(75, 147, 177);
   text-decoration: none;
   padding: 10px;
   background-repeat: no-repeat;
@@ -555,7 +610,7 @@ header {
   margin: 10px;
   border: solid 3px white;
   background-color: white;
-}
+} */
 
 /* ----------------------------------------------- */
 /* Tech */
@@ -648,7 +703,7 @@ header {
 	max-width: 100%;
   transition: transform 0.5s;
   opacity: 0.5s;
-  min-height: 10em;
+  min-height: 12em;
 }
 
 .tech-showcase li:hover img {
@@ -847,9 +902,11 @@ footer {
 
 .social-links {
     list-style: none;
-    display: block;
-    margin: auto;
-    padding-left: 44%;
+    /* display: block; */
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    /* padding-left: 44%; */
 }
 
 .footer-nav li,
@@ -961,12 +1018,18 @@ footer p {
 .js--wp-5,
 .js--wp-7,
 .js--wp-8,
-.js--wp-20,
+.js--wp-10,
+.js--wp-11,
+.js--wp-12,
+.js--wp-13,
+.js--wp-14,
+.js--wp-15,
+/* .js--wp-20,
 .js--wp-21,
 .js--wp-22,
 .js--wp-23,
 .js--wp-24,
-.js--wp-25,
+.js--wp-25, */
 .js--wp-30,
 .js--wp-31,
 .js--wp-32,
@@ -978,18 +1041,44 @@ footer p {
   opacity: 0;
 }
 
+.js--wp-11.animated{
+  animation-delay:.1s;
+}
+
+.js--wp-12.animated{
+  animation-delay:.2s;
+}
+
+.js--wp-13.animated{
+  animation-delay:.3s;
+}
+
+.js--wp-14.animated{
+  animation-delay:.4s;
+}
+
+.js--wp-15.animated{
+  animation-delay:.6s;
+}
+
 .js--wp-1.animated,
 .js--wp-2.animated,
 .js--wp-4.animated,
 .js--wp-5.animated,
 .js--wp-7.animated,
 .js--wp-8.animated,
-.js--wp-20.animated,
+.js--wp-10.animated,
+.js--wp-11.animated,
+.js--wp-12.animated,
+.js--wp-13.animated,
+.js--wp-14.animated,
+.js--wp-15.animated,
+/* .js--wp-20.animated,
 .js--wp-21.animated,
 .js--wp-22.animated,
 .js--wp-23.animated,
 .js--wp-24.animated,
-.js--wp-25.animated,
+.js--wp-25.animated, */
 .js--wp-29.animated,
 .js--wp-30.animated,
 .js--wp-31.animated,
@@ -1001,3 +1090,4 @@ footer p {
 .js--wp-37.animated {
   opacity: 1;
 }
+
