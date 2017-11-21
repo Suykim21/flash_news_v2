@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="{% static 'news_app/css/normalize.css' %}">
   <link rel="stylesheet" type="text/css" href="{% static 'news_app/css/grid.css' %}">
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,500,500i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400"rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="{% static 'news_app/css/index.css'%}" type="text/css">
   <link rel="stylesheet" href="{% static 'news_app/css/queries.css' %}">
@@ -85,67 +85,13 @@
     </div>
   </section>
 
-
-  <!-- <section class="section-features js--section-features" id="features">
-    <div class="row feature-row">
-      <h2 style="padding-bottom: 0;">Get news fast &mdash; not fast news</h2>
-      <i class="ion-minus-round icon-big icon-line" style="    display: block; margin: auto; width: 1%;"></i>
-      <p class="long-copy">
-        Break the echo chamber! Topical news from a diverse variety of sources at your fingertips.
-      </p>
-    </div>
-    <div class="row js--wp-1">
-      <div class="col span-1-of-4 box">
-        <i class="ion-earth icon-big icon"></i>
-        <a href="{{Huff.0.url}}" target="_blank">
-          <h3>{{Huff.0.title}}
-            <br>
-          </h3>
-        </a>
-        <p>{{Huff.0.publishedAt}}</p>
-        <p>{{Huff.0.description}}</p>
-      </div>
-      <div class="col span-1-of-4 box icon">
-        <i class="ion-ios-americanfootball icon-big"></i>
-        <a href="{{sportsBible.0.url}}" target="_blank">
-          <h3>{{sportsBible.0.title}}
-            <br>
-          </h3>
-        </a>
-        <p>{{sportsBible.0.publishedAt}}</p>
-        <p>{{sportsBible.0.description}}</p>
-      </div>
-      <div class="col span-1-of-4 box">
-        <i class="ion-ios-camera icon-big icon"></i>
-        <a href="{{EW.0.url}}" target="_blank">
-          <h3>{{EW.0.title}}
-            <br>
-          </h3>
-        </a>
-        <p>{{EW.0.publishedAt}}</p>
-        <p>{{EW.0.description}}</p>
-      </div>
-      <div class="col span-1-of-4 box">
-        <i class="ion-ios-monitor icon-big icon"></i>
-        <a href="{{Crunch.0.url}}" target="_blank">
-          <h3>{{Crunch.0.title}}
-            <br>
-          </h3>
-        </a>
-        <p>{{Crunch.0.publishedAt}}</p>
-        <p>{{Crunch.0.description}}</p>
-      </div>
-    </div>
-  </section> -->
-
-
   <section class="pol_par js--politics">
     <h1 style="font-size: 300%">Politics</h1>
   </section>
 
   <section class="sports" id="politics">
     <div class="js--wp-9 politics-grid">
-      <div class="js--wp-10 sports1" id="h">
+      <div class="js--wp-10 sports1 polb" id="h">
         <img src="{{Briet.0.urlToImage}}" alt="">
         <a href="{{Briet.0.url}}" target="_blank">
           <h3>{{Briet.0.title}}
@@ -157,7 +103,7 @@
         <p>{{Briet.0.description}}</p>
       </div>
 
-      <div class="sports1 js--wp-11">
+      <div class="sports1 polb js--wp-11">
         <img src="{{Huff.0.urlToImage}}" />
         <a href="{{Huff.0.url}}" target="_blank">
           <h3>{{Huff.0.title}}
@@ -169,7 +115,7 @@
         <p>{{Huff.0.description}}</p>
       </div>
 
-      <div class="sports1 js--wp-12">
+      <div class="sports1 polb js--wp-12">
         <img src="{{Briet.1.urlToImage}}" />
         <a href="{{Briet.1.url}}" target="_blank">
           <h3>{{Briet.1.title}}
@@ -177,11 +123,11 @@
           </h3>
         </a>
         <p class="p-right">Conservative View</p>
-        <p class="p-spacing" >{{Briet.1.publishedAt}}</p>
+        <p class="p-spacing">{{Briet.1.publishedAt}}</p>
         <p>{{Briet.1.description}}</p>
       </div>
 
-      <div class="sports1 js--wp-13">
+      <div class="sports1 polb js--wp-13">
         <img src="{{Huff.1.urlToImage}}" />
         <a href="{{Huff.1.url}}" target="_blank">
           <h3>{{Huff.1.title}}
@@ -193,7 +139,7 @@
         <p>{{Huff.1.description}}</p>
       </div>
 
-      <div class="sports1 js--wp-14">
+      <div class="sports1 polb js--wp-14">
         <img src="{{Briet.2.urlToImage}}" />
         <a href="{{Briet.2.url}}" target="_blank">
           <h3>{{Briet.2.title}}
@@ -205,7 +151,7 @@
         <p>{{Briet.2.description}}</p>
       </div>
 
-      <div class="sports1 js--wp-15">
+      <div class="sports1 polb js--wp-15">
         <img src="{{Huff.2.urlToImage}}" />
         <a href="{{Huff.2.url}}" target="_blank">
           <h3>{{Huff.2.title}}
@@ -220,71 +166,11 @@
 
   </section>
 
-  <!-- <section class="politics js--wp-19">
-     <div class="wrapper">
-    <div class="politics-hero">
-      <div class="politicsfeature js--wp-20">
-        <a href="{{Briet.0.url}}" target="_blank">
-          <h3>{{Briet.0.title}}</h3>
-        </a>
-        <p>{{Briet.0.publishedAt}}</p>
-        <p>{{Briet.0.description}}...</p>
-        <img src="{{Briet.0.urlToImage}}" alt="asdfas" style="width: 100%;">
-        <br>
-        <div class="politicsfeature-2 js--wp-22">
-          <a href="{{Huff.1.url}}" target="_blank">
-            <h3>{{Huff.1.title}}</h3>
-          </a>
-          <p>{{Huff.1.publishedAt}}</p>
-          <p>{{Huff.1.description}}...</p>
-          <img src="{{Huff.1.urlToImage}}" alt="asdfas" style="width: 100%;">
-        </div>
-      </div>
-      <div class="politicsspecial js--wp-21">
-        <a href="{{Briet.1.url}}" target="_blank">
-          <h3 style="margin-top:35px;">{{Briet.1.title}}</h3>
-        </a>
-        <p>{{Briet.1.publishedAt}}</p>
-        <p>{{Briet.1.description}}...</p>
-        <img src="{{Briet.1.urlToImage}}" alt="asdfas" style="width: 100%;">
-      </div>
-      <div class="politicsamazing js--wp-22">
-        <a href="{{Huff.2.url}}" target="_blank">
-          <h3 style="margin-top: 0;">{{Huff.2.title}}</h3>
-        </a>
-        <p>{{Huff.2.publishedAt}}</p>
-        <p>{{Huff.2.description}}...</p>
-      </div>
-      <div class="politicsnews js--wp-23">
-        <a href="{{Briet.2.url}}" target="_blank">
-          <h3>{{Briet.2.title}}</h3>
-        </a>
-        <p>{{Briet.2.publishedAt}}</p>
-        <p>{{Briet.2.description}}...</p>
-      </div>
-      <div class="politicsphotos js--wp-24">
-        <a href="{{Huff.3.url}}" target="_blank">
-          <h3>{{Huff.3.title}}</h3>
-        </a>
-        <p>{{Huff.3.publishedAt}}</p>
-        <p>{{Huff.3.description}}...</p>
-      </div>
-      <div class="politicscta js--wp-25">
-        <a href="{{Briet.3.url}}" target="_blank">
-          <h3>{{Briet.3.title}}</h3>
-        </a>
-        <p>{{Briet.3.publishedAt}}</p>
-        <p>{{Briet.3.description}}...</p>
-        <img src="{{Briet.3.urlToImage}}" alt="asdfas" style="width: 100%;">
-      </div>
-    </div>
-  </section>-->
-
   <section class="sports_par js--sports">
     <h1 style="font-size: 300%">Sports</h1>
   </section>
 
-  <section class="sports">
+  <section class="sports" id="sports_bcolor">
     <div class="js--wp-3 sports-grid">
       <div class="js--wp-4 sports1">
         <img src="{{sportsBible.1.urlToImage}}" alt="">
@@ -298,14 +184,14 @@
       </div>
 
       <div class="js--wp-5 js--wp-6 sports1">
-        <img src="{{Fox.0.urlToImage}}" />
-        <a href="{{Fox.0.url}}" target="_blank">
-          <h3>{{Fox.0.title}}
+        <img src="{{sportsBible.4.urlToImage}}" />
+        <a href="{{sportsBible.4.url}}" target="_blank">
+          <h3>{{sportsBible.4.title}}
             <br>
           </h3>
         </a>
-        <p>{{Fox.0.publishedAt}}</p>
-        <p>{{Fox.0.description}}</p>
+        <p>{{sportsBible.4.publishedAt}}</p>
+        <p>{{sportsBible.4.description}}</p>
       </div>
 
       <div class="js--wp-7 sports1">
@@ -320,162 +206,72 @@
       </div>
 
       <div class="js--wp-8 sports1">
-        <img src="{{Fox.1.urlToImage}}" />
-        <a href="{{Fox.1.url}}" target="_blank">
-          <h3>{{Fox.1.title}}
+        <img src="{{sportsBible.3.urlToImage}}" />
+        <a href="{{sportsBible.3.url}}" target="_blank">
+          <h3>{{sportsBible.3.title}}
             <br>
           </h3>
         </a>
-        <p>{{Fox.1.publishedAt}}</p>
-        <p>{{Fox.1.description}}</p>
+        <p>{{sportsBible.3.publishedAt}}</p>
+        <p>{{sportsBible.3.description}}</p>
       </div>
     </div>
 
   </section>
-
-  <!-- <section class="sports">
-    <div class="row js--wp-3">
-      <div class="js--wp-4 sports1">
-        <div class="col span-1-of-4 box">
-          <img src="{{sportsBible.1.urlToImage}}" />
-        </div>
-        <div class="col span-1-of-4 box" style="padding-right: 10px !important">
-          <a href="{{sportsBible.1.url}}" target="_blank"><h3>{{sportsBible.1.title}}<br></h3></a>
-          <p>{{sportsBible.1.publishedAt}}</p>
-          <p>{{sportsBible.1.description}}</p>
-        </div>
-      </div>
-      <div class="js--wp-5 sports2">
-        <div class="col span-1-of-4 box">
-          <img src="{{Fox.0.urlToImage}}" />
-        </div>
-        <div class="col span-1-of-4 box">
-          <a href="{{Fox.0.url}}" target="_blank"><h3>{{Fox.0.title}}<br></h3></a>
-          <p>{{Fox.0.publishedAt}}</p>
-          <p>{{Fox.0.description}}</p>
-        </div>
-      </div>
-    </div>
-    <div class="row js--wp-6 sports3">
-      <div class="js--wp-7">
-        <div class="col span-1-of-4 box">
-          <img src="{{sportsBible.2.urlToImage}}" />
-        </div>
-        <div class="col span-1-of-4 box" style="padding-right: 10px !important">
-          <a href="{{sportsBible.2.url}}" target="_blank"><h3>{{sportsBible.2.title}}<br></h3></a>
-          <p>{{sportsBible.2.publishedAt}}</p>
-          <p>{{sportsBible.2.description}}</p>
-        </div>
-      </div>
-      <div class="js--wp-8 sports4">
-        <div class="col span-1-of-4 box">
-          <img src="{{Fox.1.urlToImage}}" />
-        </div>
-        <div class="col span-1-of-4 box">
-          <a href="{{Fox.1.url}}" target="_blank"><h3>{{Fox.1.title}}<br></h3></a>
-          <p>{{Fox.1.publishedAt}}</p>
-          <p>{{Fox.1.description}}</p>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   <section class="tech_par js--tech">
     <h1 style="font-size: 300%">Tech</h1>
   </section>
 
-
-  <section class="tech js--tech js--wp-29">
-    <ul class="tech-showcase clearfix">
-      <li class="js--wp-30">
-        <a href="{{Crunch.1.url}}" target="_blank">
-          <figure class="tech-photo">
-            <img src="{{Crunch.1.urlToImage}}">
-            <figcaption>
-              <p>{{Crunch.1.title}}</p>
-            </figcaption>
-          </figure>
-        </a>
-      </li>
-      <li class="js--wp-31">
-        <a href="{{Recode.0.url}}" target="_blank">
-          <figure class="tech-photo">
-            <img src="{{Recode.0.urlToImage}}">
-            <figcaption>
-              <p>{{Recode.0.title}}</p>
-            </figcaption>
-          </figure>
-        </a>
-      </li>
-      <li class="js--wp-32">
-        <a href="{{Crunch.2.url}}" target="_blank">
-          <figure class="tech-photo">
-            <img src="{{Crunch.2.urlToImage}}">
-            <figcaption>
-              <p>{{Crunch.2.title}}</p>
-            </figcaption>
-          </figure>
-        </a>
-      </li>
-      <li class="js--wp-33">
-        <a href="{{Recode.1.url}}" target="_blank">
-          <figure class="tech-photo">
-            <img src="{{Recode.1.urlToImage}}">
-            <figcaption>
-              <p>{{Recode.1.title}}</p>
-            </figcaption>
-          </figure>
-        </a>
-      </li>
-    </ul>
-    <ul class="tech-showcase clearfix">
-      <li class="js--wp-34">
-        <a href="{{Crunch.3.url}}" target="_blank">
-          <figure class="tech-photo">
-            <img src="{{Crunch.3.urlToImage}}">
-            <figcaption>
-              <p>{{Crunch.3.title}}</p>
-            </figcaption>
-          </figure>
-        </a>
-      </li>
-      <li class="js--wp-35">
-        <a href="{{Recode.2.url}}" target="_blank">
-          <figure class="tech-photo">
-            <img src="{{Recode.2.urlToImage}}">
-            <figcaption>
-              <p>{{Recode.2.title}}</p>
-            </figcaption>
-          </figure>
-        </a>
-      </li>
-      <li class="js--wp-36">
-        <a href="{{Recode.4.url}}" target="_blank">
-          <figure class="tech-photo">
-            <img src="{{Recode.4.urlToImage}}">
-            <figcaption>
-              <p>{{Recode.4.title}}</p>
-            </figcaption>
-          </figure>
-        </a>
-      </li>
-      <li class="js--wp-37">
-        <a href="{{Recode.3.url}}" target="_blank">
-          <figure class="tech-photo">
-            <img src="{{Recode.3.urlToImage}}">
-            <figcaption>
-              <p>{{Recode.3.title}}</p>
-            </figcaption>
-          </figure>
-        </a>
-      </li>
-    </ul>
+  <section class="tech-container">
+    <div class="grid t_one">
+      <figure class="tech_box">
+        <img src="{{Crunch.0.urlToImage}}" alt="image">
+        <figcaption>
+          <h3>{{Crunch.0.title}}
+          </h3>
+          <p>{{Crunch.0.description}}</p>
+          <a href="{{Crunch.0.url}}">View More</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="grid t_two">
+      <figure class="tech_box">
+        <img src="{{Recode.0.urlToImage}}" alt="image">
+        <figcaption>
+          <h3>{{Recode.0.title}}
+          </h3>
+          <p>{{Recode.0.description}}</p>
+          <a href="{{Recode.0.url}}">View More</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="grid t_three">
+      <figure class="tech_box">
+        <img src="{{Crunch.1.urlToImage}}" alt="image">
+        <figcaption>
+          <h3>{{Crunch.1.title}}
+          </h3>
+          <p>{{Crunch.1.description}}</p>
+          <a href="{{Crunch.1.url}}">View More</a>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="grid t_four">
+      <figure class="tech_box">
+        <img src="{{Recode.1.urlToImage}}" alt="image">
+        <figcaption>
+          <h3>{{Recode.1.title}}
+          </h3>
+          <p>{{Recode.1.description}}</p>
+          <a href="{{Recode.1.url}}">View More</a>
+        </figcaption>
+      </figure>
+    </div>
   </section>
 
-
-
   <section class="section-form js--subscription">
-    <i class="ion-paper-airplane icon-big" style=" display: block; margin: auto; width: 1%;"></i>
+    <i class="ion-paper-airplane icon-mail" style=" display: block; margin: auto; width: 1%;"></i>
     {% if messages %} {% for message in messages %}
     <p{% if message.tags %} class="{{ message.tags }}" {% endif %}>
       {{ message }}
@@ -498,60 +294,32 @@
         <button class="form-button" type="submit" form="create_user_ajax_form" value="Submit">Submit</button>
       </form>
 
-      <!-- <div class="row">
-      <form method="post" action="/subscribe" class="contact-form ajax_form" id="create_user_ajax_form">
-        {% csrf_token %}
-        <div class="row">
-          <div class="col span-1-of-3">
-            <label for="name">Name</label>
-          </div>
-          <div class="col span-2-of-3">
-            <input type="text" name="name" id="name" placeholder="Your name" required>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col span-1-of-3">
-            <label for="email">Email</label>
-          </div>
-          <div class="col span-2-of-3">
-            <input type="email" name="email" id="email" placeholder="Your email" required>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col span-1-of-3">
-            <label>&nbsp;</label>
-          </div>
-          <div class="col span-2-of-3">
-            <button type="submit" form="create_user_ajax_form" value="Submit">Submit it!</button>
-          </div>
-        </div>
-      </form>
-    </div> -->
+
   </section>
 
   <footer>
-      <ul class="social-links">
-        <li>
-          <a href="#">
-            <i class="ion-social-facebook"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="ion-social-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="ion-social-googleplus"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="ion-social-instagram"></i>
-          </a>
-        </li>
-      </ul>
+    <ul class="social-links">
+      <li>
+        <a href="#">
+          <i class="ion-social-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="ion-social-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="ion-social-googleplus"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="ion-social-instagram"></i>
+        </a>
+      </li>
+    </ul>
 
     <div class="row ender">
       <p>
