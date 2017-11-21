@@ -20,10 +20,10 @@ def index(request):
   random.shuffle(Huff)
 
   #Entertainment Weekly API
-  responseE = requests.get('https://newsapi.org/v1/articles?source=entertainment-weekly&sortBy=top&apiKey=3b606a8547b24dfdbf43e72388b6f539')
-  dataE = responseE.json()
-  EW = dataE[u'articles']
-  random.shuffle(EW)
+  # responseE = requests.get('https://newsapi.org/v1/articles?source=entertainment-weekly&sortBy=top&apiKey=3b606a8547b24dfdbf43e72388b6f539')
+  # dataE = responseE.json()
+  # EW = dataE[u'articles']
+  # random.shuffle(EW)
 
   #Tech Crunch API call
   responseT = requests.get('https://newsapi.org/v1/articles?source=techcrunch&sortBy=top&apiKey=3b606a8547b24dfdbf43e72388b6f539')
@@ -32,10 +32,10 @@ def index(request):
   random.shuffle(Crunch)
 
   #Fox Sports API call
-  responseF = requests.get('https://newsapi.org/v1/articles?source=fox-sports&sortBy=top&apiKey=3b606a8547b24dfdbf43e72388b6f539')
-  dataF = responseF.json()
-  Fox = dataF[u'articles']
-  random.shuffle(Fox)
+  # responseF = requests.get('https://newsapi.org/v1/articles?source=fox-sports&sortBy=top&apiKey=3b606a8547b24dfdbf43e72388b6f539')
+  # dataF = responseF.json()
+  # Fox = dataF[u'articles']
+  # random.shuffle(Fox)
 
   #Brietbar API
   responseB = requests.get('https://newsapi.org/v1/articles?source=breitbart-news&sortBy=top&apiKey=3b606a8547b24dfdbf43e72388b6f539')
@@ -44,10 +44,10 @@ def index(request):
   random.shuffle(Brietbar)
 
   #MTV News API
-  responseM = requests.get('https://newsapi.org/v1/articles?source=mtv-news&sortBy=top&apiKey=3b606a8547b24dfdbf43e72388b6f539')
-  dataM = responseM.json()
-  MTV = dataM[u'articles']
-  random.shuffle(MTV)
+  # responseM = requests.get('https://newsapi.org/v1/articles?source=mtv-news&sortBy=top&apiKey=3b606a8547b24dfdbf43e72388b6f539')
+  # dataM = responseM.json()
+  # MTV = dataM[u'articles']
+  # random.shuffle(MTV)
 
   #Recode API
   responseR = requests.get('https://newsapi.org/v1/articles?source=recode&sortBy=top&apiKey=3b606a8547b24dfdbf43e72388b6f539')
@@ -64,11 +64,11 @@ def index(request):
   context = {
     'sportsBible': sportsBible,
     'Recode': Recode,
-    'MTV': MTV,
+    # 'MTV': MTV,
     'Briet': Brietbar,
-    'Fox': Fox,
+    # 'Fox': Fox,
     'Crunch': Crunch,
-    'EW': EW,
+    # 'EW': EW,
     'Huff': Huff,
   }
   return render(request, 'news_app/index.html', context)

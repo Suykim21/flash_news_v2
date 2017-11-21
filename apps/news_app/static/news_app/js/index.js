@@ -179,13 +179,13 @@ $(document).ready(function () {
     offset: '40%'
   });
 
-  $('.js--wp-13').waypoint(function (direction) {
+  $('.js--wp-12').waypoint(function (direction) {
     $('.js--wp-14').addClass('animated slideInUp');
   }, {
     offset: '40%'
   });
 
-  $('.js--wp-14').waypoint(function (direction) {
+  $('.js--wp-12').waypoint(function (direction) {
     $('.js--wp-15').addClass('animated slideInUp');
   }, {
     offset: '40%'
