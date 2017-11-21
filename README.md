@@ -5,14 +5,13 @@ A news aggregator website where user can read/view politics, sports, and tech ne
 ## Snapshot
 
 ### Mobile View
-Mobile Navbar |Home/About |  Menu | Reservation
-:---------:|:--------:|:---------:|:-----------
-<img src="https://user-images.githubusercontent.com/25072657/33096827-2d870274-cebd-11e7-8a15-dab4651c9669.png" width="150"> | <img src="https://user-images.githubusercontent.com/25072657/33095223-ba503320-ceb7-11e7-948a-4207eef5608c.png" width="150"> |<img src="https://user-images.githubusercontent.com/25072657/33096863-4f75796a-cebd-11e7-96f6-a1f611b4458a.png" width="150">|<img src="https://user-images.githubusercontent.com/25072657/33096928-6fd8e570-cebd-11e7-9a12-0381cb309cfb.png" width="150">
+
+Mobile Navbar | Home | 
+:---------:|:--------:
+<img src="https://user-images.githubusercontent.com/25072657/33098781-69f7a42e-cec3-11e7-9d42-1ce515dd5e08.png" width="100%"> | <img src="https://user-images.githubusercontent.com/25072657/33098838-908729c0-cec3-11e7-86b3-bca929de2df6.png" width="60%">
 
 ### Desktop View
-Home/About |  Menu | Reservation
-:---------:|:--------:|:---------:
-<img src="https://user-images.githubusercontent.com/25072657/33095037-0fdb3bf6-ceb7-11e7-80a3-4d7a9b0372ea.png" width="150"> | <img src="https://user-images.githubusercontent.com/25072657/33095728-87eb314e-ceb9-11e7-86dc-3b1caa25b59d.png" width="150"> | <img src="https://user-images.githubusercontent.com/25072657/33096390-adbe7b7c-cebb-11e7-9bbf-dbc58a86f948.png" width="150">
+<img src="https://user-images.githubusercontent.com/25072657/33098891-bdd42c7a-cec3-11e7-8c07-e1f33dd70c7f.png" width="75%">
 
 ## Prerequisites/Installing
 
@@ -69,10 +68,7 @@ Once activated, you can browse to localhost:8000
 * [Django](https://www.djangoproject.com/) - The web framework used
 * [SQL](https://www.sqlite.org/) - Used to manage database
 
-## Live Demo
-
-* [Live Demo](http://54.146.235.215/)
-
 ## Authors
 
-* **Steve Kim** - *Initial work* - [Suykim21](https://github.com/Suykim21)
+* **Steve Kim** - [Suykim21](https://github.com/Suykim21)
+* **Jake Kiernan** - [jakekiernan](https://github.com/jakekiernan)
