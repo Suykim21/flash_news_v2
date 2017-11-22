@@ -1,10 +1,6 @@
-/* ----------------------------------------------- */
-
-
+/* -------------------- */
 /* BASIC SETUP */
-
-
-/* ----------------------------------------------- */
+/* -------------------- */
 
 * {
   margin: 0;
@@ -41,13 +37,9 @@ body {
 }
 
 
-/* ----------------------------------------------- */
-
-
+/* ----------------------------- */
 /* REUSABLE COMPONENTS */
-
-
-/* ----------------------------------------------- */
+/* ---------------------------- */
 
 .row {
   max-width: 1140px;
@@ -204,16 +196,12 @@ a:active {
 }
 
 
-/* ----------------------------------------------- */
-
-
+/* ----------------------------- */
 /* HEADER */
-
-
-/* ----------------------------------------------- */
+/* ----------------------------- */
 
 header {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('newsbackground.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background_img/newsbackground.png');
   background-size: cover;
   background-position: center;
   height: 113vh;
@@ -372,22 +360,12 @@ header {
   color: #3A4046;
 }
 
-
-/* .section-features a {
-  color: black;
-} */
-
-
 /* --------------------------- */
-
-
 /* Sports */
-
-
 /* --------------------------- */
 
 .sports_par {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('sports_par.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background_img/sports_par.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -438,13 +416,12 @@ header {
   color: rgb(26, 175, 238);
 }
 
-
 /* ----------------------------- */
 /* Politics */
 /* ----------------------------- */
 
 .pol_par {
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('politics_par.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('background_img/politics_par.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -467,7 +444,6 @@ header {
 
 #politics {
   background-color: #f4f7f6;
-  /* background-image: -webkit-linear-gradient(33deg, rgb(75, 147, 177) 49%, white 34%); */
 }
 
 .politics-grid {
@@ -514,7 +490,7 @@ header {
 /* ----------------------------- */
 
 .tech_par {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('tech.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background_img/tech.png');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -528,7 +504,7 @@ header {
 
 .tech-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding: 0;
   /* grid-template-rows: minmax(auto, 300px); */
 }
@@ -561,7 +537,7 @@ header {
 .grid figure img {
   position: relative;
   display: block;
-  min-height: 23em;
+  min-height: 16em;
   max-width: 100%;
   opacity: 0.8;
   outline: none;
@@ -600,12 +576,14 @@ header {
 
 .grid figure h3 {
   word-spacing: -0.15em;
-  font-weight: 300;
+  font-weight: bold;
+  font-size: 75%;
+  opacity:0;
 }
 
 .grid figure h3,
 .grid figure p {
-  margin: 2em;
+  margin: 0 2.5em;
 }
 
 .grid figure p {
@@ -690,13 +668,14 @@ figure.tech_box:hover p {
     grid-template-columns: 1fr;
   }
   figure.tech_box h3 {
-    padding-top: 20%;
+    opacity: 1;
+    padding: 20% 0 5% 5%;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
   figure.tech_box p {
     opacity: 1;
-    padding: 0 2.5em;
+    padding: 2.5em;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
@@ -713,27 +692,8 @@ figure.tech_box:hover p {
 
 
 /* ------------------------------*/
-
-
 /*NEWS PHOTOS*/
-
-
 /*-------------------------------*/
-
-.current_par {
-  padding-top: 60px;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('current_par.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  background-attachment: fixed;
-  color: white;
-}
-
-.current_par h1 {
-  text-align: center;
-  line-height: 40vh;
-}
 
 .section-news {
   padding: 0;
@@ -777,17 +737,13 @@ figure.tech_box:hover p {
 }
 
 
-/* ----------------------------------------------- */
-
-
+/* --------------------------- */
 /* FORM */
-
-
-/* ----------------------------------------------- */
+/* --------------------------- */
 
 .section-form {
   padding-top: 60px;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('form_img.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background_img/form_img.png');
   background-size: cover;
   background-position: center;
   min-height: 70vh;
@@ -857,13 +813,9 @@ textarea {
 }
 
 
-/* ----------------------------------------------- */
-
-
+/* ------------------------ */
 /* FOOTER */
-
-
-/* ----------------------------------------------- */
+/* ------------------------ */
 
 footer {
   /* margin-top: 5px; */
@@ -944,19 +896,9 @@ footer p {
   margin-top: 20px;
 }
 
-
-/* .ender {
-  height
-} */
-
-
-/* ----------------------------------------------- */
-
-
+/* --------------------------- */
 /* Validation Messages */
-
-
-/* ----------------------------------------------- */
+/* --------------------------- */
 
 .success {
   position: absolute;
@@ -987,13 +929,9 @@ footer p {
 }
 
 
-/* ----------------------------------------------- */
-
-
+/* ------------------------ */
 /* Animations */
-
-
-/* ----------------------------------------------- */
+/* ------------------------ */
 
 .js--wp-1,
 .js--wp-2,
@@ -1007,14 +945,6 @@ footer p {
 .js--wp-13,
 .js--wp-14,
 .js--wp-15,
-
-/* .js--wp-20,
-.js--wp-21,
-.js--wp-22,
-.js--wp-23,
-.js--wp-24,
-.js--wp-25, */
-
 .js--wp-30,
 .js--wp-31,
 .js--wp-32,
@@ -1058,14 +988,6 @@ footer p {
 .js--wp-13.animated,
 .js--wp-14.animated,
 .js--wp-15.animated,
-
-/* .js--wp-20.animated,
-.js--wp-21.animated,
-.js--wp-22.animated,
-.js--wp-23.animated,
-.js--wp-24.animated,
-.js--wp-25.animated, */
-
 .js--wp-29.animated,
 .js--wp-30.animated,
 .js--wp-31.animated,
