@@ -11,7 +11,7 @@ Mobile Navbar | Home |
 <img src="https://user-images.githubusercontent.com/25072657/33098781-69f7a42e-cec3-11e7-9d42-1ce515dd5e08.png" width="100%"> | <img src="https://user-images.githubusercontent.com/25072657/33098838-908729c0-cec3-11e7-86b3-bca929de2df6.png" width="60%">
 
 ### Desktop View
-<img src="https://user-images.githubusercontent.com/25072657/33098891-bdd42c7a-cec3-11e7-8c07-e1f33dd70c7f.png" width="75%">
+<img src="https://user-images.githubusercontent.com/25072657/33117706-51f52d1e-cf1e-11e7-85a0-f6a32740ad40.png" width="75%">
 
 ## Prerequisites/Installing
 
