@@ -2,17 +2,6 @@
 
 A news aggregator website where user can read/view politics, sports, and tech news in one website.
 
-## Snapshot
-
-### Mobile View
-
-Mobile Navbar | Home | 
-:---------:|:--------:
-<img src="https://user-images.githubusercontent.com/25072657/33098781-69f7a42e-cec3-11e7-9d42-1ce515dd5e08.png" width="100%"> | <img src="https://user-images.githubusercontent.com/25072657/33098838-908729c0-cec3-11e7-86b3-bca929de2df6.png" width="60%">
-
-### Desktop View
-<img src="https://user-images.githubusercontent.com/25072657/33117706-51f52d1e-cf1e-11e7-85a0-f6a32740ad40.png" width="75%">
-
 ## Prerequisites/Installing
 
 To open Django project, please install django 1.11 and latest python 3.6 (or latest) turn on virtual environment on your terminal/bash
@@ -67,6 +56,17 @@ Once activated, you can browse to localhost:8000
 * [Python](https://www.python.org/) - Backend language used
 * [Django](https://www.djangoproject.com/) - The web framework used
 * [SQL](https://www.sqlite.org/) - Used to manage database
+
+## Snapshot
+
+### Mobile View
+
+Mobile Navbar | Home | 
+:---------:|:--------:
+<img src="https://user-images.githubusercontent.com/25072657/33098781-69f7a42e-cec3-11e7-9d42-1ce515dd5e08.png" width="100%"> | <img src="https://user-images.githubusercontent.com/25072657/33098838-908729c0-cec3-11e7-86b3-bca929de2df6.png" width="60%">
+
+### Desktop View
+<img src="https://user-images.githubusercontent.com/25072657/33117706-51f52d1e-cf1e-11e7-85a0-f6a32740ad40.png" width="75%">
 
 ## Authors
 
